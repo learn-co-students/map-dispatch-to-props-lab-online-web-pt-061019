@@ -33,7 +33,8 @@ export class RestaurantInput extends Component {
       <form onSubmit={(event) => this.handleOnSubmit(event)}>
         <p>
           <input
-            value={this.state.name}
+            //controlled input
+            // value={this.state.name}
             type="text"
             onChange={(event) => this.handleOnNameChange(event)}
             id="name"
@@ -41,7 +42,7 @@ export class RestaurantInput extends Component {
         </p>
         <p>
           <input
-            value={this.state.location}
+            // value={this.state.location}
             type="text"
             onChange={(event) => this.handleOnLocationChange(event)}
             id="location"
